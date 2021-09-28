@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+.portfolio-container{
+    display: flex; 
+    flex-direction: row;
+    margin:0 10%;
+}
+.aside-container{
+    width: 30%;
+    height: 100vh;
+    background-color: #155e91;
+    color: #ffffff;
+    
+}
+.section-container{
+    width: 70%;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+@media only screen and (max-width: 850px){
+    .portfolio-container{
+        margin:0px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside-container{
+        width: 100%;
+        min-height: 30vh;
+       
+    }
+    .section-container{
+        width: 100%;
+        height: 70vh;
+    }
+}
+.side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.image-holder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* ye isliye lagaya kyuki uper dekh border radius lagaya h tune or pic ka size h square to 
+        pic ka size overflow (jo border radius se circle banega) ho jayega .so i used overflow: hidden*/
+    overflow: hidden;
+    border: 2px solid white;
+    margin: 0 auto; /*ya line dhyan te yaar isne hatate hi apni image center se hat jati h*/
+}
+.image{
+    height: 100%;
+}
+.tec-stack{
+    margin: 10px 10px;
+    border-top: 2px solid white;
+
+}
+.heading{
+    text-align: center;
+    margin: 3px 0;
+}
+ul{
+    list-style: none;
+    padding: 0 10px;
+}
+ul>li{
+    /* display: inline-block; */
+    margin: 3px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.education{
+    margin: 10px 10px;
+    border-top: 2px solid white;
+
+}
+.edu{
+    margin: 10px 0;
+}
+.edu > h6{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.edu > p{
+    font-size: 10px;
+    
+}
+
+.sec-overview{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin: 5px 10px;
+}
+.header >h1{
+    font-size: 32px;
+    margin: 2px 0;
+}
+.header >p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600;
+}
+.objective{
+    margin: 5px 10px;
+    border-top: 1px solid black;
+}
+.objective > p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600; 
+}
+.project{
+    margin: 5px 10px;
+    border-top: 1px solid black;
+    
+}
+.project >p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600;
+}
+.experience{
+    margin: 5px 10px;
+    border-top: 1px solid black;
+    
+}
+.experience >p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600;
+}
+.hobbies{
+    margin: 5px 10px;
+    border-top: 1px solid black;
+    
+}
+.hobbies >p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600;
+}
+.contact{
+    margin: 5px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.contact >p{
+    font-size: 18px;
+    margin: 2px 0;
+    color: #155e91;
+    font-weight: 600;
+}
