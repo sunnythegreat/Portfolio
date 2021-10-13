@@ -63,8 +63,12 @@ body{
 .tec-stack{
     margin: 10px 10px;
     border-top: 2px solid white;
-
 }
+.contact{
+    margin: 10px 10px;
+    border-top: 2px solid white;
+}
+
 .heading{
     text-align: center;
     margin: 3px 0;
@@ -157,15 +161,4 @@ ul>li{
     color: #155e91;
     font-weight: 600;
 }
-.contact{
-    margin: 5px 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    
-}
-.contact >p{
-    font-size: 18px;
-    margin: 2px 0;
-    color: #155e91;
-    font-weight: 600;
-}
+
