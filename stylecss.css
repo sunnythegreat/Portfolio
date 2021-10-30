@@ -59,6 +59,7 @@ body{
 }
 .image{
     height: 100%;
+    width: 100%;
 }
 .tec-stack{
     margin: 10px 10px;
